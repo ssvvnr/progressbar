@@ -52,9 +52,6 @@ System.register(["@angular/core", "../services/bar-service"], function (exports_
                         progressBar.className = '';
                     }
                 };
-                ProgressBarComponent.prototype.hasClass = function (element, cls) {
-                    return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
-                };
                 ProgressBarComponent = __decorate([
                     core_1.Component({
                         styleUrls: ['./app/bar/components/bar.css'],

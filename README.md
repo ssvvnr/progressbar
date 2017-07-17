@@ -17,15 +17,15 @@ An Angular2 application with Gulp as build system.
 
 - typings
 
-> npm i -g typings@1.3.3
+> npm i -g typings
 
 - typescript
 
-> npm i -g typescript@2.0.2
+> npm i -g typescript 
 
 - ts-node
 
-> npm i -g ts-node@1.3.0
+> npm i -g ts-node
 
 
 #### 2. Installing dependencies

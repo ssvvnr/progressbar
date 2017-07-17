@@ -47,16 +47,4 @@ export class ProgressBarComponent {
 			progressBar.className = '';
 		}
     }
-
-    private hasClass(element, cls) {
-	    return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
-	}
-
- 	// public decreaseValue(e: any) {
-	//     console.log(e.currentTarget.id);
-	//     let id = e.currentTarget.id;
-	//     let value = e.currentTarget.value;
-	//   	let barId = document.getElementById("progressSelect").value;
-	// 	document.getElementById(barId).value -= Number(value);
-	// }
 }

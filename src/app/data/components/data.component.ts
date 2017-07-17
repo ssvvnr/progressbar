@@ -5,6 +5,8 @@ import {OnInit} from "@angular/core";
     templateUrl: './app/data/components/data.html'
 })
 export class DataComponent implements OnInit {
+    private endpoint: String = "";
+
     ngOnInit() {
     	this.endpoint = JSON.stringify({
 		    "buttons": [

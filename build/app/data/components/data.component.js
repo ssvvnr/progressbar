@@ -17,6 +17,7 @@ System.register(["@angular/core"], function (exports_1, context_1) {
         execute: function () {
             DataComponent = (function () {
                 function DataComponent() {
+                    this.endpoint = "";
                 }
                 DataComponent.prototype.ngOnInit = function () {
                     this.endpoint = JSON.stringify({

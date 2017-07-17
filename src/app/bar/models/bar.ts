@@ -1,6 +1,13 @@
 export class Bar {
 
-    constructor(public name:string, public done:boolean) {
+    constructor(public buttons:string) {
+    }
+
+}
+
+export class Buttons {
+
+    constructor(public buttons:string) {
     }
 
 }
