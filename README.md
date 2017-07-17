@@ -9,23 +9,23 @@ An Angular2 application with Gulp as build system.
 
 - gulp
 
-> npm i -g gulp
+> npm install -g gulp (MAC: sudo npm install -g gulp)
 
 - gulp-cli
 
-> npm i -g gulp-cli
+> npm install -g gulp-cli (MAC: sudo npm install -g gulp)
 
 - typings
 
-> npm i -g typings
+> npm install -g typings (MAC: sudo npm install -g gulp)
 
 - typescript
 
-> npm i -g typescript 
+> npm install -g typescript (MAC: sudo npm install -g gulp)
 
 - ts-node
 
-> npm i -g ts-node
+> npm install -g ts-node (MAC: sudo npm install -g gulp)
 
 
 #### 2. Installing dependencies
