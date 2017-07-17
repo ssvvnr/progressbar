@@ -1,4 +1,4 @@
-BrogressBar App with TypeScript and Gulp
+ProgressBar App with TypeScript and Gulp
 =================================
 
 An Angular2 application with Gulp as build system.
