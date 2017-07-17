@@ -10,7 +10,7 @@
 	</ul>
 	<div class="controls">
 		<select id="progressSelect">
-			<option *ngFor="let obj of bars, let barIndex = index" value="{{ 'progress' + barIndex }}">{{ 'progress' + barIndex }}</option>
+			<option *ngFor="let obj of bars, let barIndex = index" value="{{ 'progress' + barIndex }}">{{ 'Progress' + barIndex }}</option>
 		</select>
 		<div class="buttons">
 			<button *ngFor="let val of buttons, let buttonIndex = index" (click)="changeValue($event)" value="{{ val }}">{{ val }}</button>
