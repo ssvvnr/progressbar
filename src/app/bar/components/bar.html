@@ -1,0 +1,19 @@
+
+<div class="component">
+	<h1>Progres Bars Demo</h1>
+	<ul> 
+		<li *ngFor="let obj of bars, let barIndex = index"> 
+			<div>
+				<progress id="{{ 'progress' + barIndex }}" value="{{ obj | json }}" max="{{ limit }}">vl</progress>
+			</div>
+		</li>
+	</ul>
+	<div class="controls">
+		<select id="progressSelect">
+			<option *ngFor="let obj of bars, let barIndex = index" value="{{ 'progress' + barIndex }}">{{ 'progress' + barIndex }}</option>
+		</select>
+		<div class="buttons">
+			<button *ngFor="let val of buttons, let buttonIndex = index" (click)="changeValue($event)" value="{{ val }}">{{ val }}</button>
+		</div>
+	</div>
+</div>

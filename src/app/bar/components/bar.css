@@ -1,0 +1,122 @@
+.component {
+
+}
+.component ul {
+	padding: 0px;
+	margin: 0px;
+}
+.component ul li {
+	list-style: none;
+	list-style-position: inside;
+	padding: 0px;
+	margin: 0px;
+}
+
+.controls {
+	margin: 0px auto;
+	max-width: 300px;
+	text-align: center;
+}  
+.buttons {
+	display: inline;
+}
+
+.buttons button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+.danger::-webkit-progress-value {
+	background-color: red;
+}
+
+progress:after {
+  	content: attr(value)'%';
+  	position: absolute;
+  	top: 12px;
+  	left: 45%; 
+  	color: #000;
+}
+
+
+progress {
+	position: relative;
+	display: block;  
+	width: 100%;
+	margin: 2em auto;
+	padding: 2px;
+	border: 0 none;
+	background: #FFF;
+	border-radius: 0px;
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+progress::-moz-progress-bar {
+	border-radius: 12px;
+	background: #FFF;
+	box-shadow: inset 0 -1px 2px rgba(0,0,0,0.4), 0 1px 2px 0px rgba(0,0,0,0.3);
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  	progress {
+    	height: 40px;
+  	}
+}
+progress::-webkit-progress-bar {
+    background: transparent;
+}  
+progress::-webkit-progress-value {  
+  	border-radius: 0px;
+	background: #afd7e6;
+	background-size: cover;
+  	box-shadow: inset 0 -1px 2px rgba(0,0,0,0.4), 0 1px 2px 0px rgba(0,0,0,0.3); 
+}  
+ 
+
+#progressbar {
+    width: 100%;
+    height: 15px;
+    background-color: #eee;
+    padding: 2px;
+    margin: .6em 0;
+    border: 1px #000 double;
+    clear: both;
+}
+
+#progress {
+    background: #A1C969; /*-- Color of the bar --*/
+    height: 15px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress 2s 1 forwards;
+    -moz-animation: progress 2s 1 forwards;
+    -ms-animation: progress 2s 1 forwards;
+    animation: progress 2s 1 forwards;
+}
+
+#pbaranim {
+    height: 15px;
+    width: 100%;
+    overflow: hidden;
+    background: url('progress.gif') repeat-x;
+    -moz-opacity: 0.15;
+    -khtml-opacity: 0.15;
+    opacity: 0.15;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=25);
+    filter: alpha(opacity=25);
+}
+
+@-webkit-keyframes progress { 
+    from { }
+    to { width: 36% }
+}
+ 
+ 
